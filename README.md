@@ -20,7 +20,7 @@ and mysql for database
 5. create a database on PHPMYADMIN and put details in .env accordingly
 
 
-6. php artisan migrate:fresh --seed   (first generated user password will be "password").
+6. php artisan migrate:fresh --seed   (first generated user password will be "password" and please see email column in users table for email to login into system otherwise you can register too).
 
 7. php artisan passport:install
 
